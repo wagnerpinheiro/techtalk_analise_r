@@ -1,0 +1,66 @@
+<style>
+
+body {
+  background-image: url(mandic/bg.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: "Calibri";
+  color: #ffffff !important; 
+}
+  
+.section .reveal .state-background {
+    background-image: url(mandic/bg_orange.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.bg_orange {
+    background-image: url(mandic/bg_orange.png) !important;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.reveal {
+    background-image: url(mandic/bg_white.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    font-family: "Calibri (Heading)", "Calibri";
+    font-weight: bold;
+    
+}
+
+
+.section h1 {
+  width: 70%;  
+  
+}
+
+.reveal h3 {
+    font-size: 1.3em;
+}
+
+.slideContent {
+  font-size: 1em !important;
+  font-family: "Calibri";
+}
+
+.column2 {
+  font-size: 0.8em !important;
+}
+
+.column1 {
+  font-size: 0.8em !important;
+}
+</style>

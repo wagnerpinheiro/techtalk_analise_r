@@ -1,0 +1,3 @@
+# Análise Reprodutível em R
+
+Nessa apresentação abordamos alguns conceitos básicos sobre data science, explicamos a diferença entre estatística descritiva da inferencial e a partir disso estabelecemos um método para que qualquer pessoa utilize as ferramentas do data science para criar relatórios descritivos que podem ser automatizados e reproduzidos sempre que necessários, dentro de uma ferramenta que possibilita o desenvolvimento a longo prazo de modelos de machine learning e deep learning.
