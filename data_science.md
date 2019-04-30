@@ -31,7 +31,6 @@ Sobre Mim
  - AWS DevOps Pro
  - Padi AOWD (We Are Explorers!)
 
-
 Agenda
 ========================================================
 
@@ -47,6 +46,7 @@ Agenda: DATA SCIENCE (com R)
 
 - história R
 - estatística
+- análise de causa raiz
 - ciclo de vida data science
 - pipeline data science
 - relatórios descritivos no RStudio (how-to e exemplos)
@@ -59,13 +59,12 @@ Agenda: DATA SCIENCE (com R)
 </div>
 
 
-R - História
+Status quo (?)
 ========================================================
 
-Utilizado por estatísticos, analistas de dados, data miners e pesquisadores.
-
-
-<iframe scrolling="no" src="demo.html" style="position:absolute;height:400px;width:100%; "></iframe>
+<div align="center">
+<img src="data_science-figure/buzzwords_tag_cloud.png" height="500px">
+</div>
 
 
 Estatística
@@ -80,6 +79,40 @@ Estatística Descritiva x Inferencial
 Correlação não implica em causalidade
 
 ![](data_science-figure/correlation-vs-causation-phone.png)
+
+
+Diagrama de Causa e Efeito: Ishikawa
+========================================================
+
+
+<div align="center">
+<img src="data_science-figure/ishikawa.gif" height="500px">
+</div>
+
+
+R - História
+========================================================
+
+Utilizado por estatísticos, analistas de dados, data miners e pesquisadores.
+
+
+<iframe scrolling="no" src="demo.html" style="position:absolute;height:400px;width:100%; "></iframe>
+
+
+
+Gerenciamento de Pacotes
+========================================================
+
+Repositórios:
+
+- R: Cran
+- Python: Pypi
+
+----
+
+Gerenciamento: 
+- R: Packart
+- Python: pip + Virtualenv
 
 
 CRAN - Bibliotecas R
@@ -99,6 +132,7 @@ CRAN - Bibliotecas R
 <div align="right">
 <img src="data_science-figure/lego-science.jpg" height="300px">
 </div>
+
 
 
 Dúvida: Por que R e não Python?
@@ -206,3 +240,5 @@ Links
 - [IT Networking Hub](http://itnh.wagnerpinheiro.com.br)
 - [data scientist with r](https://www.datacamp.com/tracks/data-scientist-with-r)
 - Quicksights
+
+

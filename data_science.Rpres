@@ -36,7 +36,6 @@ Sobre Mim
  - AWS DevOps Pro
  - Padi AOWD (We Are Explorers!)
 
-
 Agenda
 ========================================================
 
@@ -52,6 +51,7 @@ Agenda: DATA SCIENCE (com R)
 
 - história R
 - estatística
+- análise de causa raiz
 - ciclo de vida data science
 - pipeline data science
 - relatórios descritivos no RStudio (how-to e exemplos)
@@ -61,6 +61,37 @@ Agenda: DATA SCIENCE (com R)
 
 <div align="right">
 <img src="data_science-figure/rejoicing.gif" height="300px">
+</div>
+
+
+Status quo (?)
+========================================================
+
+<div align="center">
+<img src="data_science-figure/buzzwords_tag_cloud.png" height="500px">
+</div>
+
+
+Estatística
+========================================================
+
+Estatística Descritiva x Inferencial 
+
+![](data_science-figure/descriptive-vs-inferential-statistics.jpg)
+
+----
+
+Correlação não implica em causalidade
+
+![](data_science-figure/correlation-vs-causation-phone.png)
+
+
+Diagrama de Causa e Efeito: Ishikawa
+========================================================
+
+
+<div align="center">
+<img src="data_science-figure/ishikawa.gif" height="500px">
 </div>
 
 
@@ -119,18 +150,20 @@ htmlwidgets::saveWidget(t, file = "demo.html", selfcontained = F)
 <iframe scrolling="no" src="demo.html" style="position:absolute;height:400px;width:100%; "></iframe>
 
 
-Estatística
+
+Gerenciamento de Pacotes
 ========================================================
 
-Estatística Descritiva x Inferencial 
+Repositórios:
 
-![](data_science-figure/descriptive-vs-inferential-statistics.jpg)
+- R: Cran
+- Python: Pypi
 
 ----
 
-Correlação não implica em causalidade
-
-![](data_science-figure/correlation-vs-causation-phone.png)
+Gerenciamento: 
+- R: Packart
+- Python: pip + Virtualenv
 
 
 CRAN - Bibliotecas R
@@ -150,6 +183,7 @@ CRAN - Bibliotecas R
 <div align="right">
 <img src="data_science-figure/lego-science.jpg" height="300px">
 </div>
+
 
 
 Dúvida: Por que R e não Python?
@@ -192,12 +226,14 @@ AWS Data Pipeline
 How-to: ggplot2
 ========================================================
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, warning=FALSE}
 library(ggplot2)
 
 pkg <- read.csv2("pkg_count_2019.csv")
 
-ggplot(pkg, aes(x=reorder(repository, -pkg_count), y=pkg_count, fill=language)) +
+# reorder(repository, -pkg_count)
+
+ggplot(pkg, aes(x=repository, y=pkg_count, fill=language)) +
   geom_bar(stat ="identity") +
   coord_flip() +
   labs(title="Packages count by Repository (jan, 2019)", x="repository", y="count")
@@ -268,3 +304,5 @@ Links
 - [IT Networking Hub](http://itnh.wagnerpinheiro.com.br)
 - [data scientist with r](https://www.datacamp.com/tracks/data-scientist-with-r)
 - Quicksights
+
+
