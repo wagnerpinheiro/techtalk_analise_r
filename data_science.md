@@ -90,6 +90,36 @@ Diagrama de Causa e Efeito: Ishikawa
 </div>
 
 
+Método Científico
+========================================================
+
+
+<div align="center">
+<img src="data_science-figure/metodo_cientifico.jpg" height="500px">
+</div>
+
+
+Data Science Lifecycle
+========================================================
+
+<div align="center">
+<img src="data_science-figure/ds-lifecycle2.png" height="500px">
+</div>
+
+
+Data Science Pipeline
+========================================================
+
+- Obter + Limpar -> ETL (Extract, Transform, Load) [DWH & B.I.]
+
+AWS Data Pipeline
+
+<div align="center">
+<img src="data_science-figure/Prediction1-1.png" height="400px">
+</div>
+
+
+
 R - História
 ========================================================
 
@@ -111,7 +141,7 @@ Repositórios:
 ----
 
 Gerenciamento: 
-- R: Packart
+- R: Packrat
 - Python: pip + Virtualenv
 
 
@@ -150,28 +180,6 @@ Dúvida: Por que R e não Python?
     
 
 
-
-Data Science Lifecycle
-========================================================
-
-<div align="center">
-<img src="data_science-figure/ds-lifecycle2.png" height="500px">
-</div>
-
-
-Data Science Pipeline
-========================================================
-
-- Obter + Limpar -> ETL (Extract, Transform, Load) [DWH & B.I.]
-
-AWS Data Pipeline
-
-<div align="center">
-<img src="data_science-figure/Prediction1-1.png" height="400px">
-</div>
-
-
-
 How-to: ggplot2
 ========================================================
 
@@ -179,6 +187,25 @@ How-to: ggplot2
 
 
 - [Top50 GGplot2 Visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Ordered%20Bar%20Chart)
+
+
+Rstudio
+========================================================
+
+
+<div align="center">
+<img src="data_science-figure/rstudio_1.png" height="500px">
+</div>
+
+
+Rstudio
+========================================================
+
+
+<div align="center">
+<img src="data_science-figure/rstudio_2.png" height="500px">
+</div>
+
 
 
 Relatórios Descritivos e Apps em Shiny
@@ -229,7 +256,12 @@ Wagner S. Pinheiro
 
 DevOps Engineer
 
+<br >
+<br >
+
 https://www.linkedin.com/in/wagnerspinheiro/
+
+https://github.com/wagnerpinheiro/techtalk_analise_r
 
 
 Links
